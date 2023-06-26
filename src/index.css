@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  background: #F5F7FB;
+}
+.wrapper {
+  width: 550px;
+  height: 550px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  width: 412px;
+  height: 41px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #293264;
+  text-align: center;
+  font-size: 31.25px;
+  font-family: Karla;
+  font-weight: 700;
+}
+
+.start--btn {
+  margin-top: 10px;
+  border-radius: 15px;
+  background: #4D5B9E;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.checkAnswer--btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
