@@ -22,7 +22,6 @@ function Quiz(props) {
             correctAnswerIndex: correctAnswerIndex,
           };
         });
-        console.log(data);
         setQuestions(parsedQuestions);
       })
       .catch((error) => {
@@ -56,8 +55,6 @@ function Quiz(props) {
 
   const checkAnswer = () => {
     setAnswersChecked(true);
-
-    // Check if all answers have been checked
     if (questions.every((question) => question.answers.some((answer) => answer.clicked))) {
       setQuizEnded(true);
     }
