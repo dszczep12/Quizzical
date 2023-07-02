@@ -52,3 +52,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.answer.correct {
+  background-color: green;
+}
+
+.answer.incorrect {
+  background-color: red;
+}
