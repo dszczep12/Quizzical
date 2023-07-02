@@ -26,10 +26,20 @@ body {
   font-weight: 700;
 }
 
-.start--btn {
+.answer {
   margin-top: 10px;
   border-radius: 15px;
   background: #4D5B9E;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.answer.clicked {
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: green;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
